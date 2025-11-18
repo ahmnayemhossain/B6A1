@@ -28,12 +28,12 @@ Union টাইপ দিয়ে একটি ভেরিয়েবল এ�
 Intersection টাইপ দিয়ে একাধিক টাইপকে মিলিয়ে একটি টাইপ তৈরি করা যায়। অর্থাৎ,
 মানটি সব ধরনের টাইপের শর্ত পূরণ করতে হবে।
 
-````type Person = { name: string; age: number; };
+```type Person = { name: string; age: number; };
 
 type Employee = { employeeId: number; department: string; };
 
 type EmployeeDetails = Person & Employee;
 
 const emp: EmployeeDetails = { name: "Alice", age: 25, employeeId: 101,
-department: "IT" };```
-````
+department: "IT" };
+```
